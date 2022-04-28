@@ -20,7 +20,12 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  align-items: flex-start;
+  padding: 15px;
+  gap: 15px;
 }
+
 
 .icon {
   color: royalblue;
@@ -33,6 +38,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.mode {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.header {
+  font-weight: bold;
+  font-size: larger;
 }
 
 .close-button {
